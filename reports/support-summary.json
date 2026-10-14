@@ -1,0 +1,198 @@
+{
+  "title": "Windows IT Support & Asset Lifecycle \u2014 Simulated Portfolio Lab",
+  "notice": "Every person, ticket, asset, event, and tracking reference in this project is fictional. No employer relationship or real support action is represented.",
+  "provenance": {
+    "dataset": "Locally authored synthetic lab scenarios",
+    "license": "Project-authored synthetic data",
+    "ticket_source_sha256": "8b563abb05a79c75057189489767571acbffc5f89a326cd2ca6f55d0fb805bd8",
+    "asset_source_sha256": "bf470d6663892a13e4d987be985d307a2bafa7caa737642c146df76037f8088a",
+    "lifecycle_source_sha256": "f2958c66d319cbe94bff6964a900837c869b3035ce38251a1289c037138d8488"
+  },
+  "scope": {
+    "tickets": 30,
+    "assets": 16,
+    "lifecycle_requests": 4,
+    "distinct_assets_with_tickets": 10,
+    "currency": "Not applicable"
+  },
+  "ticket_metrics": {
+    "by_category": [
+      {
+        "label": "Network",
+        "count": 6
+      },
+      {
+        "label": "Software",
+        "count": 5
+      },
+      {
+        "label": "Security",
+        "count": 4
+      },
+      {
+        "label": "Hardware",
+        "count": 4
+      },
+      {
+        "label": "Peripheral",
+        "count": 3
+      },
+      {
+        "label": "Account Access",
+        "count": 3
+      },
+      {
+        "label": "Onboarding",
+        "count": 3
+      },
+      {
+        "label": "Offboarding",
+        "count": 2
+      }
+    ],
+    "by_priority": [
+      {
+        "label": "P2",
+        "count": 13
+      },
+      {
+        "label": "P3",
+        "count": 13
+      },
+      {
+        "label": "P1",
+        "count": 4
+      }
+    ],
+    "by_status": [
+      {
+        "label": "Resolved",
+        "count": 30
+      }
+    ],
+    "median_resolution_minutes": 30.5,
+    "median_first_response_minutes": 8.0,
+    "reopened_count": 2,
+    "escalated_count": 7,
+    "resolution_minutes_by_category": [
+      {
+        "label": "Account Access",
+        "median_minutes": 29,
+        "ticket_count": 3
+      },
+      {
+        "label": "Hardware",
+        "median_minutes": 22.0,
+        "ticket_count": 4
+      },
+      {
+        "label": "Network",
+        "median_minutes": 30.5,
+        "ticket_count": 6
+      },
+      {
+        "label": "Offboarding",
+        "median_minutes": 35.0,
+        "ticket_count": 2
+      },
+      {
+        "label": "Onboarding",
+        "median_minutes": 29,
+        "ticket_count": 3
+      },
+      {
+        "label": "Peripheral",
+        "median_minutes": 24,
+        "ticket_count": 3
+      },
+      {
+        "label": "Security",
+        "median_minutes": 80.0,
+        "ticket_count": 4
+      },
+      {
+        "label": "Software",
+        "median_minutes": 67,
+        "ticket_count": 5
+      }
+    ]
+  },
+  "asset_metrics": {
+    "by_status": [
+      {
+        "label": "In Service",
+        "count": 16
+      }
+    ],
+    "by_patch_state": [
+      {
+        "label": "Current",
+        "count": 14
+      },
+      {
+        "label": "Needs review",
+        "count": 2
+      }
+    ],
+    "by_encryption_status": [
+      {
+        "label": "Protected",
+        "count": 9
+      },
+      {
+        "label": "Not applicable",
+        "count": 6
+      },
+      {
+        "label": "Needs review",
+        "count": 1
+      }
+    ],
+    "inventory_check_date": "2026-09-17"
+  },
+  "lifecycle_metrics": {
+    "by_request_type": [
+      {
+        "label": "Onboarding",
+        "count": 2
+      },
+      {
+        "label": "Offboarding",
+        "count": 2
+      }
+    ],
+    "by_status": [
+      {
+        "label": "Ready for simulated handoff",
+        "count": 1
+      },
+      {
+        "label": "On hold",
+        "count": 1
+      },
+      {
+        "label": "Blocked pending data owner clearance",
+        "count": 1
+      },
+      {
+        "label": "Awaiting approval",
+        "count": 1
+      }
+    ],
+    "approval_pending_count": 1,
+    "actions_not_executed_count": 2
+  },
+  "data_quality": {
+    "ticket_asset_references_valid": true,
+    "all_ticket_ids_unique": true,
+    "ticket_resolution_durations_match_timestamps": true,
+    "records_are_fictional": true
+  },
+  "metric_definitions": {
+    "resolution": "Synthetic elapsed minutes from opened_at to closed_at; simulated examples only, not SLA or employer performance.",
+    "first_response": "Synthetic minutes to first response; not measured service-level attainment.",
+    "escalated": "Scenario flag marking fictional cases routed to a higher support tier or security owner.",
+    "asset": "Fictional asset inventory with stub serials; no real device inventory.",
+    "lifecycle": "Mock approvals and tasks; no live account, license, device, wipe, or shipment action occurred."
+  }
+}

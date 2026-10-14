@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.sqlite
+*.sqlite3
+*.db
+data/processed/
+.server.log
+.server.pid
+.env
+# Never publish actual employer/customer support exports or real endpoint identifiers.
+real-data/
+private-evidence/
+*.nessus

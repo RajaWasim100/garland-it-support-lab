@@ -1,0 +1,17 @@
+asset_tag,asset_type,model,serial_stub,assigned_to,location,assigned_date,warranty_end,status,encryption_status,patch_state,last_inventory_check
+GL-WS-014,Workstation,Lab Desktop Model A,SYN-00014,Alex Morgan,Mississauga Lab,2026-01-12,2028-01-12,In Service,Protected,Current,2026-09-17
+GL-LT-006,Laptop,Lab Notebook Model B,SYN-00006,Jordan Lee,Mississauga Lab,2026-02-02,2028-02-02,In Service,Protected,Current,2026-09-17
+GL-WS-011,Workstation,Lab Desktop Model A,SYN-00011,Sam Patel,Mississauga Lab,2026-01-19,2028-01-19,In Service,Protected,Needs review,2026-09-17
+GL-LT-003,Laptop,Lab Notebook Model B,SYN-00003,Taylor Kim,Mississauga Lab,2026-02-04,2028-02-04,In Service,Needs review,Current,2026-09-17
+GL-WS-008,Workstation,Lab Desktop Model A,SYN-00008,Casey Nguyen,Mississauga Lab,2026-01-27,2028-01-27,In Service,Protected,Current,2026-09-17
+GL-LT-004,Laptop,Lab Notebook Model B,SYN-00004,Robin Chen,Mississauga Lab,2026-02-08,2028-02-08,In Service,Protected,Current,2026-09-17
+GL-WS-019,Workstation,Lab Desktop Model A,SYN-00019,Jamie Scott,Mississauga Lab,2026-01-30,2028-01-30,In Service,Protected,Current,2026-09-17
+GL-LT-010,Laptop,Lab Notebook Model B,SYN-00010,Drew Wilson,Mississauga Lab,2026-02-12,2028-02-12,In Service,Protected,Needs review,2026-09-17
+GL-WS-002,Workstation,Lab Desktop Model A,SYN-00002,Quinn Davis,Mississauga Lab,2026-01-08,2028-01-08,In Service,Protected,Current,2026-09-17
+GL-LT-007,Laptop,Lab Notebook Model B,SYN-00007,Avery Brooks,Mississauga Lab,2026-02-18,2028-02-18,In Service,Protected,Current,2026-09-17
+GL-DK-001,Docking Station,USB-C Dock Prototype,SYN-10001,Shared Pool,Mississauga Lab,2026-03-01,2027-03-01,In Service,Not applicable,Current,2026-09-17
+GL-HS-003,Headset,USB Headset Prototype,SYN-20003,Shared Pool,Mississauga Lab,2026-03-01,2027-03-01,In Service,Not applicable,Current,2026-09-17
+GL-MN-002,Monitor,24-inch Display Prototype,SYN-30002,Shared Pool,Mississauga Lab,2026-03-01,2027-03-01,In Service,Not applicable,Current,2026-09-17
+GL-KB-004,Keyboard,USB Keyboard Prototype,SYN-40004,Shared Pool,Mississauga Lab,2026-03-01,2027-03-01,In Service,Not applicable,Current,2026-09-17
+GL-MS-006,Mouse,USB Mouse Prototype,SYN-50006,Shared Pool,Mississauga Lab,2026-03-01,2027-03-01,In Service,Not applicable,Current,2026-09-17
+GL-WC-005,Webcam,USB Webcam Prototype,SYN-60005,Shared Pool,Mississauga Lab,2026-03-01,2027-03-01,In Service,Not applicable,Current,2026-09-17
