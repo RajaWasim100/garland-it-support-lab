@@ -13,3 +13,7 @@ data/processed/
 real-data/
 private-evidence/
 *.nessus
+# Locally captured, personally performed VM evidence; publish only manually redacted derivatives.
+evidence/private/
+*.webm
+*.png
